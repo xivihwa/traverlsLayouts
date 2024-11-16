@@ -12,3 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+function toggleSidebar() {
+    document.querySelector('.sidebar').classList.toggle('active');
+}
